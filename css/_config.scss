@@ -52,8 +52,8 @@ $baselineheight 				: 1.5em;
 
 // Now set media types and features for your CSS3 media queries
 
-$media : screen;  
-$feature : min-width; 
+$media : screen;
+$feature : min-width;
 
 // Now set values for your responsive design breakpoints
 // Ems are default, but you may use px if you prefer
@@ -64,14 +64,14 @@ $feature : min-width;
 // 768px 	48em
 // 992px 	62em
 // 1382px	86.375em
- 
-$bp2 							: 30em;  		
-$bp3 							: 37.5em;  	
-$bp4 							: 48em;  		
-$bp5 							: 62em; 		
-$bp6 							: 86.375em; 	
 
-// Does your design needs a maximum width to maintain readable line lengths? 
+$bp2 							: 30em;
+$bp3 							: 37.5em;
+$bp4 							: 48em;
+$bp5 							: 62em;
+$bp6 							: 86.375em;
+
+// Does your design needs a maximum width to maintain readable line lengths?
 
 $maxwidth						: 90em;
 
@@ -126,7 +126,7 @@ $lightestneutralcolor 			: lighten($neutralcolor,70%);
 $black 							: rgb(0,0,0);
 $white 							: rgb(255,255,255);
 
-// Choose a colour for your hyperlinks. Often this will be the $primarycolor 
+// Choose a colour for your hyperlinks. Often this will be the $primarycolor
 $linkcolor 		    			: $primarycolor;
 $linkcolorhover 				: darken($linkcolor, 10);
 $linkcolorvisited   			: darken($linkcolorhover, 10);
@@ -146,8 +146,8 @@ $warningcolor 					: $errorcolor;
 
 // STEP FOUR: TEXTURE ================================================
 
-// Next set variables for your design’s borders. 
-// These will be inherited by many Rock Hammer elements below 
+// Next set variables for your design’s borders.
+// These will be inherited by many Rock Hammer elements below
 
 $bordercolor    				: $lighterneutralcolor;
 $borderstyle					: solid;
@@ -187,7 +187,7 @@ $borderradius 					: 4px;
 // TYPOGRAPHY =============================================================================
 
 // Background colour for blockquotes, ins, and mark
-$basefontbackgroundcolor		: $lightestneutralcolor; 
+$basefontbackgroundcolor		: $lightestneutralcolor;
 
 
 
@@ -212,7 +212,7 @@ $navigationborderstyle			: $navigationborderstyle;
 $navigationbordercolor 			: darken($navigationbackgroundcolor,10%);
 
 // Set navigation items’ link colours
-$navigationlinkcolor			: $white;
+$navigationlinkcolor			  : $white;
 
 // :hover
 $navigationlinkcolorhover		: darken($navigationlinkcolor,10%);
@@ -284,7 +284,7 @@ $breadcrumbbordercolor			: darken($breadcrumbbackgroundcolor, 5%);
 // Set the breadcrumbs’ border style
 $breadcrumbborderstyle 			: $borderstyle;
 
-// Set the breadcrumbs’ font-size. 
+// Set the breadcrumbs’ font-size.
 // Use only a number. Units (em/px/%) are not required
 // Default is $basefontsize defined above
 $breadcrumbfontsize 			: $basefontsize;
@@ -431,7 +431,7 @@ $alertbordercolor				: darken($alertbackgroundcolor, 20%);
 // Set the alert’s border radius. Default is $borderradius defined above
 $alertborderradius 				: $borderradius;
 
-// Set the alert’s font-size. 
+// Set the alert’s font-size.
 // Use only a number. Units (em/px/%) are not required
 // Default is $basefontsize defined above
 $alertfontsize 					: $basefontsize;
@@ -589,7 +589,7 @@ $buttonborderradius				: $borderradius;
 // Set the button’s font-family. Default is $basefontfamily defined above
 $buttonfontfamily 				: $basefontfamily;
 
-// Set the button’s font-size. 
+// Set the button’s font-size.
 // Use only a number. Units (em/px/%) are not required
 // Default is $basefontsize defined above
 $buttonfontsize 				: $basefontsize;
